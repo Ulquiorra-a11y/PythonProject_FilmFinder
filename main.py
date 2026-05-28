@@ -10,6 +10,10 @@ def main():
             match menu.show():
                 case 1:
                     search_film(db)
+
+                case 2:
+                    search_category(db)
+
                 case 5:
                     print("До новых встреч")
                     break
