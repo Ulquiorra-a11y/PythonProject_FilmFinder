@@ -1,7 +1,7 @@
 SELECT_FILM = """
 SELECT title
 FROM film
-WHERE UPPER(title) LIKE %s
+WHERE title LIKE %s
 ORDER BY film_id LIMIT 10
 """
 
